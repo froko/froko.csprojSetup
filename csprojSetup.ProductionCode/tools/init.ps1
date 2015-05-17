@@ -4,10 +4,7 @@ Function CopyFile($fileName, $sourcePath, $destinationPath) {
 	$source = "$sourcePath\$fileName"
 	$destination = "$destinationPath\$fileName"
 	
-	If (Test-Path $destination) {
-		Write-Host "$fileName already exists"
-	} 
-	Else {
+	If (!(Test-Path $destination)) {
 		Copy-Item $source -Destination $destinationPath
 		Write-Host "Added $fileName to $destinationPath"
 	}
