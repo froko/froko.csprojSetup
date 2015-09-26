@@ -14,7 +14,7 @@
     <developmentDependency>true</developmentDependency>
     <dependencies>
       <dependency id="StyleCop.MSBuild" version="4.7.49.1" />
-	  <dependency id="GitVersionTask" version="3.1.0" />
+	  <dependency id="GitVersionTask" version="3.1.2" />
 	</dependencies>	
   </metadata>
 </package>
