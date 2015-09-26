@@ -13,7 +13,7 @@
     <copyright>Copyright (c) Patrick Ineichen (@froko)</copyright>
     <developmentDependency>true</developmentDependency>
     <dependencies>
-      <dependency id="froko.csprojSetup" version="1.8.0" />
+      <dependency id="froko.csprojSetup" version="1.9.0" />
 	</dependencies>	
   </metadata>
 </package>
