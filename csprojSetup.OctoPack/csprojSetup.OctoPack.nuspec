@@ -13,8 +13,8 @@
     <copyright>Copyright (c) Patrick Ineichen (@froko)</copyright>
     <developmentDependency>true</developmentDependency>
     <dependencies>
-      <dependency id="froko.csprojSetup" version="1.9.0" />
-	  <dependency id="OctoPack" version="3.0.43" />
+      <dependency id="froko.csprojSetup" version="1.10.0" />
+	  <dependency id="OctoPack" version="3.0.53" />
 	</dependencies>	
   </metadata>
 </package>

@@ -36,7 +36,7 @@ froko.csprojSetup consists of the following unique packages:
 
 ###froko.csprojSetup.OctoPack
 - Adds [OctoPack](http://www.nuget.org/packages/OctoPack) to your project
-- Adds an MSBUILD target that will pack your assembly into a NuGet package after the project has been build in Release mode
+- Adds an MSBUILD target that will pack your assembly into a NuGet package after the project has been built in Release mode
 
 ###froko.csprojSetup.XmlDocumentation
 - Generates XML documentation out of your code comments when you do a Release build
