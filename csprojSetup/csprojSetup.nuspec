@@ -13,8 +13,8 @@
     <copyright>Copyright (c) Patrick Ineichen (@froko)</copyright>
     <developmentDependency>true</developmentDependency>
     <dependencies>
-      <dependency id="StyleCop.MSBuild" version="4.7.50" />
-	  <dependency id="GitVersionTask" version="3.4.1" />
+      <dependency id="StyleCop.MSBuild" version="4.7.54" />
+	  <dependency id="GitVersionTask" version="3.6.2" />
 	</dependencies>	
   </metadata>
 </package>
