@@ -16,7 +16,7 @@ If you can agree on most of the points above, then you should definitely give fr
 ## What's in the box?
 froko.csprojSetup consists of the following unique packages:
 
-###froko.csprojSetup
+### froko.csprojSetup
 - The main package. All other packages within the suite depend on this package. 
 - Configures your C# project to treat warnings as errors on Release build. 
 - Adds [StyleCop.MSBuild](http://www.nuget.org/packages/StyleCop.MSBuild/) to your project in order to check your code when you build it
