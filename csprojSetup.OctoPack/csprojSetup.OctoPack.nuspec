@@ -14,7 +14,7 @@
     <developmentDependency>true</developmentDependency>
     <dependencies>
       <dependency id="froko.csprojSetup" version="1.14.0" />
-	  <dependency id="OctoPack" version="3.5.2" />
+	  <dependency id="OctoPack" version="3.6.1" />
 	</dependencies>	
   </metadata>
 </package>
