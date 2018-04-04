@@ -17,7 +17,6 @@
     <developmentDependency>true</developmentDependency>
     <dependencies>
       <dependency id="StyleCop.Analyzers" version="1.0.2" />
-      <dependency id="CSharpGuidelinesAnalyzer" version="1.0.1" />
       <dependency id="GitVersionTask" version="3.6.5" />
     </dependencies>
   </metadata>
