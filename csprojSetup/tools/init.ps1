@@ -13,4 +13,4 @@ Function CopyFile($fileName, $sourcePath, $destinationPath) {
 $codeAnalysisPath = "$toolsPath\..\codeanalysis"
 $solutionPath = Resolve-Path .
 
-CopyFile "ProductionCode.ruleset" $codeAnalysisPath $solutionPath
+CopyFile "stylecop.json" $codeAnalysisPath $solutionPath
