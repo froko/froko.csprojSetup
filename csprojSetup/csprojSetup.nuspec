@@ -1,20 +1,23 @@
 <?xml version="1.0"?>
-<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<package 
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata 
+    xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <id>froko.csprojSetup</id>
     <version>0.0.0</version>
     <authors>Patrick Ineichen</authors>
     <owners>Patrick Ineichen</owners>
     <projectUrl>https://github.com/froko/froko.csprojSetup</projectUrl>
-	<iconUrl>https://raw.githubusercontent.com/froko/froko.csprojSetup/master/docs/froko.csprojSetup.ico</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/froko/froko.csprojSetup/master/docs/froko.csprojSetup.ico</iconUrl>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Common setup for your C# projects</description>
     <copyright>Copyright (c) Patrick Ineichen (@froko)</copyright>
     <developmentDependency>true</developmentDependency>
     <dependencies>
-      <dependency id="StyleCop.MSBuild" version="5.0.0" />
-	  <dependency id="GitVersionTask" version="3.6.5" />
-	</dependencies>	
+      <dependency id="StyleCop.Analyzers" version="1.0.2" />
+      <dependency id="GitVersionTask" version="3.6.5" />
+    </dependencies>
   </metadata>
 </package>

@@ -1,19 +1,22 @@
 <?xml version="1.0"?>
-<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<package 
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata 
+    xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <id>froko.csprojSetup.ProductionCode</id>
     <version>0.0.0</version>
     <authors>Patrick Ineichen</authors>
     <owners>Patrick Ineichen</owners>
     <projectUrl>https://github.com/froko/froko.csprojSetup</projectUrl>
-	<iconUrl>https://raw.githubusercontent.com/froko/froko.csprojSetup/master/docs/froko.csprojSetup.ico</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/froko/froko.csprojSetup/master/docs/froko.csprojSetup.ico</iconUrl>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Common setup for your C# production code projects</description>
     <copyright>Copyright (c) Patrick Ineichen (@froko)</copyright>
     <developmentDependency>true</developmentDependency>
     <dependencies>
-      <dependency id="froko.csprojSetup" version="1.16.0" />
-	</dependencies>	
+      <dependency id="froko.csprojSetup" version="2.0.0" />
+    </dependencies>
   </metadata>
 </package>

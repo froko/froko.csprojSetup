@@ -13,4 +13,5 @@ Function CopyFile($fileName, $sourcePath, $destinationPath) {
 $codeAnalysisPath = "$toolsPath\..\codeanalysis"
 $solutionPath = Resolve-Path .
 
-CopyFile "Facts.StyleCop" $codeAnalysisPath $solutionPath
+CopyFile "TestCode.ruleset" $codeAnalysisPath $solutionPath
+CopyFile "TestProject.csproj" $toolsPath $solutionPath
