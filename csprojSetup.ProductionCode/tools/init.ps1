@@ -10,7 +10,7 @@ Function CopyFile($fileName, $sourcePath, $destinationPath) {
 	}
 }
 
-$codeAnalysisPath = "$toolsPath\..\codeanalysis"
+$assetsPath = "$toolsPath\..\assets"
 $solutionPath = Resolve-Path .
 
-CopyFile "ProductionCode.ruleset" $codeAnalysisPath $solutionPath
+CopyFile "ProductionCode.ruleset" $assetsPath $solutionPath
