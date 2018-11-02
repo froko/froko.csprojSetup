@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<package 
-  xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+<package
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <metadata 
+  <metadata
     xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <id>froko.csprojSetup</id>
     <version>0.0.0</version>
@@ -17,7 +17,7 @@
     <developmentDependency>true</developmentDependency>
     <dependencies>
       <dependency id="StyleCop.Analyzers" version="1.0.2" />
-      <dependency id="GitVersionTask" version="3.6.5" />
+      <dependency id="GitVersionTask" version="4.0.0" />
     </dependencies>
   </metadata>
 </package>
