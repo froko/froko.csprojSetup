@@ -17,8 +17,8 @@ If you can agree on most of the points above, then you should definitely give fr
 froko.csprojSetup consists of the following unique packages:
 
 ### froko.csprojSetup
-- The main package. All other packages within the suite depend on this package. 
-- Configures your C# project to treat warnings as errors on Release build. 
+- The main package. All other packages within the suite depend on this package.
+- Configures your C# project to treat warnings as errors on Release build.
 - Adds [StyleCop](https://github.com/DotNetAnalyzers/StyleCopAnalyzers) to your project in order to check your code when you build it
 - Adds [GitVersionTask](http://www.nuget.org/packages/GitVersionTask) to your project for automatic versioning of your assemblies
 
@@ -29,7 +29,7 @@ froko.csprojSetup consists of the following unique packages:
 - Adds [xUnit](http://www.nuget.org/packages/xunit) as dependency
 - Adds [FluentAssertions](http://www.nuget.org/packages/FluentAssertions) as dependency
 - Adds [FakeItEasy](http://www.nuget.org/packages/FakeItEasy) as dependency
-- Adds a TestProject.csproj file to your solution's root directory the first time you install this package. This file holds a reference to all your test projects you create along the way by selecting them by their *.Test suffix in the file name. This file can be used to define a msbuild call, which automatically executes all tests from all test assemblies.
+- Adds a TestProject.csproj file to your solution's root directory the first time you install this package. This file holds a reference to all your test projects you create along the way by selecting them by their *.Facts suffix in the file name. This file can be used to define a msbuild call, which automatically executes all tests from all test assemblies.
 - Adds a central TestCode RuleSet file to your solution's root directory and links it with the project. The placement of the RuleSet file is done only once when you install this package the first time in your solution. So you can customize this file for your needs and don't have to worry that it gets overridden by later installations of this package or a package restore.
 
 ### froko.csprojSetup.OctoPack
