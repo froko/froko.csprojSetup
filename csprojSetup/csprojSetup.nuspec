@@ -16,7 +16,7 @@
     <copyright>Copyright (c) Patrick Ineichen (@froko)</copyright>
     <developmentDependency>true</developmentDependency>
     <dependencies>
-      <dependency id="StyleCop.Analyzers" version="1.0.2" />
+      <dependency id="StyleCop.Analyzers" version="1.1.118" />
       <dependency id="GitVersionTask" version="4.0.0" />
     </dependencies>
   </metadata>
